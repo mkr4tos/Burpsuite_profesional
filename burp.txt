@@ -1,0 +1,14 @@
+## Actualizar java
+wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb
+sudo apt install ./jdk-21_linux-x64_bin.deb
+
+## Incluir en .zshrc
+export JAVA_HOME=/usr/lib/jvm/jdk-21-oracle-x64
+export PATH=$PATH:$JAVA_HOME/bin
+
+## Ejecutar el siguiente comando para la instalacion 
+sudo apt update && sudo apt install -y wget && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
+
+## Comando para abrir burpsuite
+burpsuitepro
+
