@@ -1,5 +1,6 @@
 Lo primero es situarse en un directorio en el que tengamos todos los permisos y en el cual queramos instalar Burpsuite Profesional.
-Puede ser que la primerra ejecucion no sea exitosa, si es asi cierra y ejecuta de nuevo.
+Puede ser que la primera ejecución no sea exitosa, si es asi cierra y ejecuta de nuevo.
+En mi casó realizé todo el proceso como root
 
 ## Actualizar java
 wget https://download.oracle.com/java/21/latest/jdk-21_linux-x64_bin.deb
